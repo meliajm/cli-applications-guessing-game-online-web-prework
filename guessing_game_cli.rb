@@ -4,11 +4,6 @@ require 'pry'
 def run_guessing_game
   random_number = rand(6) + 1
   user_input = gets.chomp
-  # if user_input == "exit"
-  #   user_input
-  # else
-  #   user_input = (gets.chomp).to_i
-  # end 
   
   
   if user_input == "exit" 
@@ -21,7 +16,3 @@ def run_guessing_game
   puts random_number
   puts user_input
 end
-
-# if user_input == "exit"
-  #   puts "Goodbye!"
-  # end
